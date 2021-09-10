@@ -1,8 +1,8 @@
 .Section1 {
-  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .Section1Left {
@@ -45,8 +45,8 @@
 }
 
 .Section1RightButton {
-  height: 10vh;
-  width: 25vw;
+  height: 60px;
+  width: 350px;
   background: #14213d;
   border-radius: 8px;
   display: flex;
