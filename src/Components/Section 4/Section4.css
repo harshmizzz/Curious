@@ -1,0 +1,56 @@
+.Section4 {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin-top: 100px;
+}
+.Section4Top {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+.Section4Bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Section4Left {
+  width: 30%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.Section4Right {
+  width: 30%;
+}
+
+.Section4RightTop {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.Section4RightMiddle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.Section4Line > svg {
+  width: 100%;
+}

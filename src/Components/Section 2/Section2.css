@@ -1,0 +1,40 @@
+.Section2 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  flex-direction: column;
+  padding: 4vh 15vw 0 15vw;
+}
+
+.Section2Top {
+  min-height: 10vh;
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  color: #14213d;
+}
+
+.Section2Middle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  width: 80%;
+  color: #14213d;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Section2TopBottom {
+  background: #c4c4c4;
+  border-radius: 34px;
+  width: 90%;
+  height: 450px;
+}

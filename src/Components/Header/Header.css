@@ -1,0 +1,47 @@
+.Header {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  height: 12vh;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.HeaderLogo {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-evenly;
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.HeaderLogo > img {
+  width: 56px;
+  height: 56px;
+}
+
+.HeaderLinks {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  gap: 5vw;
+  justify-content: flex-end;
+  margin-right: 5vw;
+}
+
+.HeaderLinks > li {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #14213d;
+}
