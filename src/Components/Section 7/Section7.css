@@ -1,0 +1,115 @@
+.Section7 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.Section7Top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.Section7TopLeft {
+  background: #14213d;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  min-height: 75vh;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.Section7TopLeft1 {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+.Section7TopLeft2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  width: 90%;
+  color: #ffffff;
+}
+.Section7TopLeft3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.Section7TopLeft4 {
+  background: #fca311;
+  border-radius: 8px;
+  height: 60px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.Section7TopRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.Section7TopRight > img {
+  width: 489.97px;
+  height: 506.03px;
+}
+.Section7Bottom {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.Section7Bottom1 {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.Section7Bottom2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  color: #000000;
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .Section7TopRight > img {
+    width: 350px;
+    height: 320px;
+  }
+}

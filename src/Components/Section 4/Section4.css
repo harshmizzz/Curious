@@ -17,7 +17,7 @@
 .Section4Bottom {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .Section4Left {
   width: 30%;

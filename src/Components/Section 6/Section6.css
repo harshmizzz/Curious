@@ -8,8 +8,14 @@
 .Section6Top {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
+  padding-right: 5%;
+  padding-left: 5%;
+  /* background: #14213d; */
+}
+
+.Section6TopRight {
 }
 .Section6TopLeft {
   width: 50%;
@@ -37,6 +43,10 @@
   line-height: 36px;
   color: #14213d;
   width: 60%;
+}
+.Section6TopRight > img {
+  width: 442px;
+  height: 342px;
 }
 .Section6Bottom {
   display: flex;

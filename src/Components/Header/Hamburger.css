@@ -1,0 +1,32 @@
+.hamburgerItems {
+  display: none;
+}
+
+.hamburgerOpen {
+  position: absolute;
+  z-index: 10000;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 35vh;
+  width: 20%;
+  border-radius: 22px;
+  background: #dfdddd;
+  box-shadow: 23px 23px 46px #b3b3b3, -23px -23px 46px #ffffff;
+}
+
+.hamburgerOpen > li {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #14213d;
+}
+
+.hamburgerOpen > h3:active {
+  color: rgba(42, 214, 93, 0.719);
+}

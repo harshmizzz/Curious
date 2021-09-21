@@ -1,0 +1,35 @@
+.color1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.color1Top {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.color1Middle {
+  margin-top: 50px;
+  gap: 20px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.color1MiddleBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+  width: 20vw;
+  background: rgba(255, 255, 255, 0.8);
+  border: 5px solid #656868;
+  box-sizing: border-box;
+}

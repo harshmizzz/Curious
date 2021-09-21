@@ -11,16 +11,18 @@
 .HeaderLogo {
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 25%;
   justify-content: space-evenly;
   font-family: Libre Baskerville;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
   color: #000000;
+}
+
+.HeaderLogo > p {
+  font-family: Libre Baskerville;
 }
 
 .HeaderLogo > img {
@@ -32,7 +34,8 @@
   display: flex;
   width: 60%;
   align-items: center;
-  gap: 5vw;
+  /* gap: 5vw; */
+  gap: 3vw;
   justify-content: flex-end;
   margin-right: 5vw;
 }
